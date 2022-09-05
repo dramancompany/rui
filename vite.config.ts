@@ -7,7 +7,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default () => {
   return defineConfig({
     plugins: [
-      react(),
+      process.env.npm_lifecycle_event === "build" ? null : react(),
       tsconfigPaths(),
       dts({
         insertTypesEntry: true,
@@ -15,6 +15,7 @@ export default () => {
     ],
     build: {
       target: ["es2015"],
+      polyfillModulePreload: false,
       lib: {
         entry: path.resolve(__dirname, "src/index.ts"),
         name: "remember-ui",
@@ -33,6 +34,9 @@ export default () => {
           "react-text-mask",
           "body-scroll-lock",
           "react-modal",
+          "react",
+          "react-dom",
+          "styled-components",
         ],
         output: {
           globals: {
