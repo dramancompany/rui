@@ -14,7 +14,7 @@ export default () => {
       }),
     ],
     build: {
-      target: ["es2015"],
+      target: ["esnext"],
       polyfillModulePreload: false,
       lib: {
         entry: path.resolve(__dirname, "src/index.ts"),
