@@ -1,12 +1,12 @@
 {
-  "name": "@remember/ui",
-  "version": "0.0.0",
+  "name": "@remember_web/ui",
+  "version": "0.0.0-beta.2",
   "description": "Remember UI Components",
   "homepage": "https://github.com/dramancompany/rui",
   "author": "Remember",
   "license": "MIT",
-  "main": "dist/index.cjm.js",
-  "module": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "files": [
@@ -19,7 +19,7 @@
     "url": "https://github.com/dramancompany/rui.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "dev": "vite",
