@@ -3,6 +3,7 @@ import * as path from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 import tsconfigPaths from "vite-tsconfig-paths";
+import { visualizer } from "rollup-plugin-visualizer";
 
 export default () => {
   return defineConfig({
@@ -12,6 +13,7 @@ export default () => {
       dts({
         insertTypesEntry: true,
       }),
+      visualizer({ filename: "stats.html", open: true })
     ],
     build: {
       target: ["es2015"],
