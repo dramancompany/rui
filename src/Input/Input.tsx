@@ -20,6 +20,7 @@ const Input: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
   { label, leftElements, rightElements, ...props },
   ref
 ) => {
+  // TODO: useId로 대체해야 함, 랜덤 ID생성하는 로직 작성할 것
   const labelId = useMemo(() => String(Date.now()), []);
   return (
     <>
