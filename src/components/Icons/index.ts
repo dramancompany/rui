@@ -120,6 +120,8 @@ export { ReactComponent as IconUploadS } from '/src/assets/icons/icon_upload_s.s
 export { ReactComponent as IconVideoS } from '/src/assets/icons/icon_video_s.svg';
 export { ReactComponent as IconVisibilityM } from '/src/assets/icons/icon_visibility_m.svg';
 export { ReactComponent as IconVisibilityOffM } from '/src/assets/icons/icon_visibility_off_m.svg';
+export { ReactComponent as IconVisibilityOffS } from '/src/assets/icons/icon_visibility_off_s.svg';
+export { ReactComponent as IconVisibilityS } from '/src/assets/icons/icon_visibility_s.svg';
 export { ReactComponent as IconWonM } from '/src/assets/icons/icon_won_m.svg';
 export { ReactComponent as IconWonS } from '/src/assets/icons/icon_won_s.svg';
 export { ReactComponent as IconZoominM } from '/src/assets/icons/icon_zoomin_m.svg';

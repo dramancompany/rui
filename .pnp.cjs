@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@radix-ui/react-dialog", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:1.0.2"],\
+            ["@radix-ui/react-label", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:2.0.0"],\
             ["@radix-ui/react-separator", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:1.0.1"],\
             ["@radix-ui/react-switch", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:1.0.1"],\
             ["@storybook/addon-a11y", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:6.5.13"],\
@@ -5117,6 +5118,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@radix-ui/react-label", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/@radix-ui-react-label-npm-2.0.0-3752bec5a2-7ff57bd696.zip/node_modules/@radix-ui/react-label/",\
+          "packageDependencies": [\
+            ["@radix-ui/react-label", "npm:2.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:2.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@radix-ui-react-label-virtual-0d26b72408/0/cache/@radix-ui-react-label-npm-2.0.0-3752bec5a2-7ff57bd696.zip/node_modules/@radix-ui/react-label/",\
+          "packageDependencies": [\
+            ["@radix-ui/react-label", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:2.0.0"],\
+            ["@babel/runtime", "npm:7.19.4"],\
+            ["@radix-ui/react-primitive", "virtual:8403b4982737fbb3e9c5917fe44b30322241cf445c2efd721784d9bde3da833c4f0cfa5a6341a2df40b5541821d4a8979f45a30ed77e20c3459a84c3f59a48b6#npm:1.0.1"],\
+            ["@types/react", "npm:18.0.18"],\
+            ["@types/react-dom", "npm:18.0.6"],\
+            ["react", "npm:17.0.2"],\
+            ["react-dom", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:17.0.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@radix-ui/react-portal", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/@radix-ui-react-portal-npm-1.0.1-d43e27e7de-3bdcf6e1d9.zip/node_modules/@radix-ui/react-portal/",\
@@ -5435,6 +5464,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@remember_web/ui", "workspace:."],\
             ["@radix-ui/react-dialog", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:1.0.2"],\
+            ["@radix-ui/react-label", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:2.0.0"],\
             ["@radix-ui/react-separator", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:1.0.1"],\
             ["@radix-ui/react-switch", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:1.0.1"],\
             ["@storybook/addon-a11y", "virtual:c394e6595154aa4729a403213ffa74b07623d1b1b08fcfabd05b9d9222885dec3583d184d467055e955ab6b7a7ef972b0f3db34fa1a76d9d259f6f4648d23090#npm:6.5.13"],\

@@ -17,7 +17,7 @@ const createIconStoryTemplate = (
   name
 ) => `import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { ${name} } from "..";
+import { ${name} } from '..';
 
 export default {
   title: 'Icons/${name}',
@@ -25,15 +25,16 @@ export default {
   args: {
     width: '32px',
     height: '32px',
-    color: 'black'
-  }
+    color: 'black',
+  },
 } as ComponentMeta<typeof ${name}>;
 
 const Template: ComponentStory<typeof ${name}> = (args) => (
   <${name} {...args} />
 );
 
-export const Basic = Template.bind({});`;
+export const Basic = Template.bind({});
+`;
 
 const svgIconFiles = fs
   .readdirSync(path.join(process.cwd(), ICONS_DIR))
@@ -54,4 +55,4 @@ const icons = svgIconFiles
   })
   .join('\n');
 
-fs.writeFileSync(path.join(process.cwd(), EXPORT_DIR, 'index.tsx'), icons);
+fs.writeFileSync(path.join(process.cwd(), EXPORT_DIR, 'index.ts'), icons);
